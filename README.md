@@ -10,7 +10,7 @@ Nasadki typu „trzecia ręka” do ustawiania płyt pod kątem 90°. Zestaw: **
 
 - [Opis projektu i parametry OpenSCAD](carpentry-third-hand/README.md).
 - [Próbnik czterech luzów — STL](carpentry-third-hand/stl/fit/fit_all_4.stl?raw=true).
-- [Gotowe STL: A referencyjny](carpentry-third-hand/stl/reference), [B wzmocniony](carpentry-third-hand/stl/reinforced), [C kompaktowy](carpentry-third-hand/stl/compact).
+- [Gotowe STL: A standardowy](carpentry-third-hand/stl/standard), [B wzmocniony](carpentry-third-hand/stl/reinforced), [C kompaktowy](carpentry-third-hand/stl/compact).
 - [Ustawienia druku](carpentry-third-hand/docs/printing.md) i [użytkowanie](carpentry-third-hand/docs/usage.md).
 - [Weryfikacja geometrii i jej ograniczenia](carpentry-third-hand/docs/validation.md).
 

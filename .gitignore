@@ -1,0 +1,9 @@
+# Lokalne narzedzia i cache; gotowe STL sa celowo wersjonowane.
+**/tools/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+
+# Archiwa tworzone lokalnie przez scripts/package.py.
+carpentry-third-hand.zip
+carpentry-third-hand.zip.sha256

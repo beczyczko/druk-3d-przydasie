@@ -1,0 +1,178 @@
+[
+  {
+    "file": "stl/standard/TL_standard.stl",
+    "bytes": 69684,
+    "seconds": 4.71,
+    "definitions": {
+      "variant": "standard"
+    }
+  },
+  {
+    "file": "stl/standard/LL_standard.stl",
+    "bytes": 103884,
+    "seconds": 12.72,
+    "definitions": {
+      "variant": "standard"
+    }
+  },
+  {
+    "file": "stl/standard/plate_1_standard.stl",
+    "bytes": 277284,
+    "seconds": 28.79,
+    "definitions": {
+      "variant": "standard",
+      "plate_number": 1
+    }
+  },
+  {
+    "file": "stl/standard/plate_2_standard.stl",
+    "bytes": 277284,
+    "seconds": 29.56,
+    "definitions": {
+      "variant": "standard",
+      "plate_number": 2
+    }
+  },
+  {
+    "file": "stl/reinforced/TL_reinforced.stl",
+    "bytes": 71084,
+    "seconds": 6.6,
+    "definitions": {
+      "variant": "reinforced"
+    }
+  },
+  {
+    "file": "stl/reinforced/LL_reinforced.stl",
+    "bytes": 106684,
+    "seconds": 14.82,
+    "definitions": {
+      "variant": "reinforced"
+    }
+  },
+  {
+    "file": "stl/reinforced/plate_1_reinforced.stl",
+    "bytes": 284284,
+    "seconds": 32.51,
+    "definitions": {
+      "variant": "reinforced",
+      "plate_number": 1
+    }
+  },
+  {
+    "file": "stl/reinforced/plate_2_reinforced.stl",
+    "bytes": 284284,
+    "seconds": 30.58,
+    "definitions": {
+      "variant": "reinforced",
+      "plate_number": 2
+    }
+  },
+  {
+    "file": "stl/compact/TL_compact.stl",
+    "bytes": 69684,
+    "seconds": 4.85,
+    "definitions": {
+      "variant": "compact"
+    }
+  },
+  {
+    "file": "stl/compact/LL_compact.stl",
+    "bytes": 104884,
+    "seconds": 13.07,
+    "definitions": {
+      "variant": "compact"
+    }
+  },
+  {
+    "file": "stl/compact/plate_1_compact.stl",
+    "bytes": 279284,
+    "seconds": 26.9,
+    "definitions": {
+      "variant": "compact",
+      "plate_number": 1
+    }
+  },
+  {
+    "file": "stl/compact/plate_2_compact.stl",
+    "bytes": 279284,
+    "seconds": 25.82,
+    "definitions": {
+      "variant": "compact",
+      "plate_number": 2
+    }
+  },
+  {
+    "file": "stl/fit/fit_18_clearance_0.2.stl",
+    "bytes": 70284,
+    "seconds": 5.55,
+    "definitions": {
+      "fit_clearance": 0.2
+    }
+  },
+  {
+    "file": "stl/fit/fit_18_clearance_0.3.stl",
+    "bytes": 82084,
+    "seconds": 8.18,
+    "definitions": {
+      "fit_clearance": 0.3
+    }
+  },
+  {
+    "file": "stl/fit/fit_18_clearance_0.4.stl",
+    "bytes": 47684,
+    "seconds": 7.2,
+    "definitions": {
+      "fit_clearance": 0.4
+    }
+  },
+  {
+    "file": "stl/fit/fit_18_clearance_0.5.stl",
+    "bytes": 66084,
+    "seconds": 6.62,
+    "definitions": {
+      "fit_clearance": 0.5
+    }
+  },
+  {
+    "file": "stl/fit/fit_all_4.stl",
+    "bytes": 265884,
+    "seconds": 21.09,
+    "definitions": {}
+  },
+  {
+    "file": "stl/demo/board_TL_A_18mm.stl",
+    "bytes": 684,
+    "seconds": 0.36,
+    "definitions": {
+      "demo_type": "TL",
+      "board_part": "A"
+    }
+  },
+  {
+    "file": "stl/demo/board_TL_B_18mm.stl",
+    "bytes": 684,
+    "seconds": 0.31,
+    "definitions": {
+      "demo_type": "TL",
+      "board_part": "B"
+    }
+  },
+  {
+    "file": "stl/demo/board_LL_A_18mm.stl",
+    "bytes": 684,
+    "seconds": 0.29,
+    "definitions": {
+      "demo_type": "LL",
+      "board_part": "A"
+    }
+  },
+  {
+    "file": "stl/demo/board_LL_B_18mm.stl",
+    "bytes": 684,
+    "seconds": 0.3,
+    "definitions": {
+      "demo_type": "LL",
+      "board_part": "B"
+    }
+  }
+]

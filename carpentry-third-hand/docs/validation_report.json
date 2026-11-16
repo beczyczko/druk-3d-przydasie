@@ -1,0 +1,1219 @@
+{
+  "date": "2026-11-16",
+  "status": "PASS",
+  "scope": "Geometria cyfrowa; bez proby fizycznego druku i testu obciazenia",
+  "python": "3.12.8",
+  "trimesh": "5.2.1",
+  "files": [
+    {
+      "file": "stl/compact/LL_compact.stl",
+      "sha256": "1d9d465550a7ab48437d1cce5ec67313c4fe314e20c6b1660512965604e739c5",
+      "triangles": 2096,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        56.39999961853027,
+        56.39999961853027,
+        52.0
+      ],
+      "volume_mm3": 25375.5483663669,
+      "bounds_mm": [
+        [
+          -4.399999618530273,
+          -4.399999618530273,
+          0.0
+        ],
+        [
+          52.0,
+          52.0,
+          52.0
+        ]
+      ],
+      "geometry": {
+        "slot_widths_mm": [
+          18.29998779296875,
+          18.29998779296875
+        ],
+        "wall_thicknesses_mm": [
+          4.4000091552734375,
+          4.399993896484375,
+          4.4000091552734375,
+          4.399993896484375
+        ],
+        "datum_angle_deg": 90.0,
+        "base_thickness_mm": 3.1999998092651367,
+        "corner_radius_mm": [
+          2.9999883981631865,
+          3.000000688756426
+        ],
+        "holes": [
+          {
+            "z_center_mm": 13.200003,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702256
+          },
+          {
+            "z_center_mm": 28.200004,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702256
+          },
+          {
+            "z_center_mm": 43.200004,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702256
+          }
+        ],
+        "contact_areas_mm2": {
+          "datum_A": 1414.0697769315288,
+          "datum_B": 659.5999481201172,
+          "edge_A": 683.8283008411399,
+          "edge_B": 465.8855374206414
+        },
+        "removal": [
+          {
+            "removal_mm": 0,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 0.2,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 1,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 5,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 15,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 30,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 52,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 54,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "oversize_18_4_collision_mm3": [
+          65.38574969651906,
+          65.19170382636683
+        ]
+      }
+    },
+    {
+      "file": "stl/compact/plate_1_compact.stl",
+      "sha256": "7f0f4f4a757fdf56492a92495b24a2c4fcf4722b38e2cb7ebce0f6558877a52a",
+      "triangles": 5584,
+      "components": 3,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        120.79999351501465,
+        120.79999351501465,
+        52.0
+      ],
+      "volume_mm3": 86022.48501908105,
+      "bounds_mm": [
+        [
+          29.600000381469727,
+          29.600000381469727,
+          0.0
+        ],
+        [
+          150.39999389648438,
+          150.39999389648438,
+          52.0
+        ]
+      ],
+      "layout": {
+        "components": 3,
+        "TL": 1,
+        "LL": 2,
+        "min_bbox_gap_mm": 8.0,
+        "bed_edge_mm": 29.600000381469727
+      }
+    },
+    {
+      "file": "stl/compact/plate_2_compact.stl",
+      "sha256": "fe2a1837fdf82325b10a1b1d9416daafe964d1a444b035d8d7c68e2939d09ee8",
+      "triangles": 5584,
+      "components": 3,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        120.79999351501465,
+        120.79999351501465,
+        52.0
+      ],
+      "volume_mm3": 86022.48501908105,
+      "bounds_mm": [
+        [
+          29.600000381469727,
+          29.600000381469727,
+          0.0
+        ],
+        [
+          150.39999389648438,
+          150.39999389648438,
+          52.0
+        ]
+      ],
+      "layout": {
+        "components": 3,
+        "TL": 1,
+        "LL": 2,
+        "min_bbox_gap_mm": 8.0,
+        "bed_edge_mm": 29.600000381469727
+      }
+    },
+    {
+      "file": "stl/compact/TL_compact.stl",
+      "sha256": "bbc819d26dc753bb6a756f185e2d9a7d2e2c80ebc1b1461492bfed189004cb3f",
+      "triangles": 1392,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        104.0,
+        56.39999961853027,
+        52.0
+      ],
+      "volume_mm3": 35271.39118273472,
+      "bounds_mm": [
+        [
+          -52.0,
+          -4.399999618530273,
+          0.0
+        ],
+        [
+          52.0,
+          52.0,
+          52.0
+        ]
+      ],
+      "geometry": {
+        "slot_widths_mm": [
+          18.29998779296875,
+          18.29998779296875
+        ],
+        "wall_thicknesses_mm": [
+          4.4000091552734375,
+          4.399993896484375,
+          4.4000091552734375,
+          4.399993896484375
+        ],
+        "datum_angle_deg": 90.0,
+        "base_thickness_mm": 3.1999998092651367,
+        "corner_radius_mm": [
+          2.999989588888302,
+          3.0000057636456456
+        ],
+        "holes": [
+          {
+            "z_center_mm": 13.200003,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702256
+          },
+          {
+            "z_center_mm": 28.200004,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702256
+          },
+          {
+            "z_center_mm": 43.200004,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702256
+          }
+        ],
+        "contact_areas_mm2": {
+          "datum_A": 2422.869697420124,
+          "datum_B": 653.7801853942685,
+          "edge_A": 1759.0842650568356,
+          "edge_B": 612.0
+        },
+        "removal": [
+          {
+            "removal_mm": 0,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 0.2,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 1,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 5,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 15,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 30,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 52,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 54,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "oversize_18_4_collision_mm3": [
+          166.2776711394902,
+          130.36786657715675
+        ]
+      }
+    },
+    {
+      "file": "stl/demo/board_LL_A_18mm.stl",
+      "sha256": "fee172c2b738067cbe3a1d4c18f642d2d1d54dc18b8af794bbd3357edb934c4a",
+      "triangles": 12,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        85.0,
+        18.0,
+        95.00000286102295
+      ],
+      "volume_mm3": 145350.0043773651,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          4.800000190734863
+        ],
+        [
+          85.0,
+          18.0,
+          99.80000305175781
+        ]
+      ]
+    },
+    {
+      "file": "stl/demo/board_LL_B_18mm.stl",
+      "sha256": "e88b0b784302c79ffb60c2874c4303f1b638fe32559c92c5b3f8ff8211d86f80",
+      "triangles": 12,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        18.0,
+        67.0,
+        95.00000286102295
+      ],
+      "volume_mm3": 114570.00345039368,
+      "bounds_mm": [
+        [
+          0.0,
+          18.0,
+          4.800000190734863
+        ],
+        [
+          18.0,
+          85.0,
+          99.80000305175781
+        ]
+      ]
+    },
+    {
+      "file": "stl/demo/board_TL_A_18mm.stl",
+      "sha256": "60de43015d8cf6979103e206a4f65c57817aba416bd87207606768f9863003e6",
+      "triangles": 12,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        170.0,
+        18.0,
+        95.00000286102295
+      ],
+      "volume_mm3": 290700.0087547302,
+      "bounds_mm": [
+        [
+          -85.0,
+          0.0,
+          4.800000190734863
+        ],
+        [
+          85.0,
+          18.0,
+          99.80000305175781
+        ]
+      ]
+    },
+    {
+      "file": "stl/demo/board_TL_B_18mm.stl",
+      "sha256": "d99970efee51532813d1286e4d431d66725491f56c003cd333cf5e34751b26a5",
+      "triangles": 12,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        18.0,
+        67.0,
+        95.00000286102295
+      ],
+      "volume_mm3": 114570.00345039368,
+      "bounds_mm": [
+        [
+          -9.0,
+          18.0,
+          4.800000190734863
+        ],
+        [
+          9.0,
+          85.0,
+          99.80000305175781
+        ]
+      ]
+    },
+    {
+      "file": "stl/fit/fit_18_clearance_0.2.stl",
+      "sha256": "18a9ffdb73d3f748422663660c61aa99c3b286dff1db1f63be3aec3245d9a8a6",
+      "triangles": 1404,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        39.0,
+        28.200000762939453,
+        23.200000762939453
+      ],
+      "volume_mm3": 7332.559205315815,
+      "bounds_mm": [
+        [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        [
+          39.0,
+          23.200000762939453,
+          23.200000762939453
+        ]
+      ],
+      "measured_slot_mm": 18.200000762939453
+    },
+    {
+      "file": "stl/fit/fit_18_clearance_0.3.stl",
+      "sha256": "db14e47e01d8c3c3a60792792fc1241e187e3b6b4b5a3f0894ee4709d29794d8",
+      "triangles": 1640,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        39.0,
+        28.299999237060547,
+        23.200000762939453
+      ],
+      "volume_mm3": 7340.1896176435475,
+      "bounds_mm": [
+        [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        [
+          39.0,
+          23.299999237060547,
+          23.200000762939453
+        ]
+      ],
+      "measured_slot_mm": 18.299999237060547
+    },
+    {
+      "file": "stl/fit/fit_18_clearance_0.4.stl",
+      "sha256": "c929d9a48b0bf912f12f84f30e5f95ae6e9993dcbcacb028c800fb3222fa0ce0",
+      "triangles": 952,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        39.0,
+        28.399999618530273,
+        23.200000762939453
+      ],
+      "volume_mm3": 7348.017262681385,
+      "bounds_mm": [
+        [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        [
+          39.0,
+          23.399999618530273,
+          23.200000762939453
+        ]
+      ],
+      "measured_slot_mm": 18.399999618530273
+    },
+    {
+      "file": "stl/fit/fit_18_clearance_0.5.stl",
+      "sha256": "ca0edf1947ae8c6913f6cc908d8330b53aa3927438d0b53c575367f0bd658e21",
+      "triangles": 1320,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        39.0,
+        28.5,
+        23.200000762939453
+      ],
+      "volume_mm3": 7355.29494357547,
+      "bounds_mm": [
+        [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        [
+          39.0,
+          23.5,
+          23.200000762939453
+        ]
+      ],
+      "measured_slot_mm": 18.5
+    },
+    {
+      "file": "stl/fit/fit_all_4.stl",
+      "sha256": "ad3c6bef84cebb8a8ab23baf673d4af8c9f6aa68e46c39a1a38a90ff3e067f81",
+      "triangles": 5316,
+      "components": 4,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        171.0,
+        28.5,
+        23.200000762939453
+      ],
+      "volume_mm3": 29376.06209122797,
+      "bounds_mm": [
+        [
+          4.0,
+          4.0,
+          0.0
+        ],
+        [
+          175.0,
+          32.5,
+          23.200000762939453
+        ]
+      ]
+    },
+    {
+      "file": "stl/reinforced/LL_reinforced.stl",
+      "sha256": "00e8954bf318a06401ac359b5cb8de8767e96301e84e31f4c1071e08ba3dc9f9",
+      "triangles": 2132,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        80.39999961853027,
+        80.39999961853027,
+        62.0
+      ],
+      "volume_mm3": 69195.62239691093,
+      "bounds_mm": [
+        [
+          -8.399999618530273,
+          -8.399999618530273,
+          0.0
+        ],
+        [
+          72.0,
+          72.0,
+          62.0
+        ]
+      ],
+      "geometry": {
+        "slot_widths_mm": [
+          18.29998779296875,
+          18.29998779296875
+        ],
+        "wall_thicknesses_mm": [
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "datum_angle_deg": 90.0,
+        "base_thickness_mm": 4.799999237060547,
+        "corner_radius_mm": [
+          2.999995575127964,
+          3.0000091545765
+        ],
+        "holes": [
+          {
+            "z_center_mm": 14.800002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 29.800002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 44.800002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          }
+        ],
+        "contact_areas_mm2": {
+          "datum_A": 2404.2498616093385,
+          "datum_B": 1497.8867231150084,
+          "edge_A": 923.8283008411399,
+          "edge_B": 705.8855374206414
+        },
+        "removal": [
+          {
+            "removal_mm": 0,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 0.2,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 1,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 5,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 15,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 30,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 62,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 64,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "oversize_18_4_collision_mm3": [
+          147.155436419037,
+          146.8813716054073
+        ]
+      }
+    },
+    {
+      "file": "stl/reinforced/plate_1_reinforced.stl",
+      "sha256": "dfb0baf0fae0286d61d8a68ad382cb93ba7595e6953d0a6344b1393deeefbc14",
+      "triangles": 5684,
+      "components": 3,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        168.79999351501465,
+        168.79999351501465,
+        62.0
+      ],
+      "volume_mm3": 238673.91336629455,
+      "bounds_mm": [
+        [
+          5.600000381469727,
+          5.600000381469727,
+          0.0
+        ],
+        [
+          174.39999389648438,
+          174.39999389648438,
+          62.0
+        ]
+      ],
+      "layout": {
+        "components": 3,
+        "TL": 1,
+        "LL": 2,
+        "min_bbox_gap_mm": 8.0,
+        "bed_edge_mm": 5.600000381469727
+      }
+    },
+    {
+      "file": "stl/reinforced/plate_2_reinforced.stl",
+      "sha256": "a98ffb274f4fbe8bca156e6f46ac8c2f0c3f538c476caa29e566f6f86bee94f5",
+      "triangles": 5684,
+      "components": 3,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        168.79999351501465,
+        168.79999351501465,
+        62.0
+      ],
+      "volume_mm3": 238673.91336629455,
+      "bounds_mm": [
+        [
+          5.600000381469727,
+          5.600000381469727,
+          0.0
+        ],
+        [
+          174.39999389648438,
+          174.39999389648438,
+          62.0
+        ]
+      ],
+      "layout": {
+        "components": 3,
+        "TL": 1,
+        "LL": 2,
+        "min_bbox_gap_mm": 8.0,
+        "bed_edge_mm": 5.600000381469727
+      }
+    },
+    {
+      "file": "stl/reinforced/TL_reinforced.stl",
+      "sha256": "8c7afbe49f87f8e358d9beac2d6225277a4739eb91e4f9567e3d1043ba967b3f",
+      "triangles": 1420,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        144.0,
+        80.39999961853027,
+        62.0
+      ],
+      "volume_mm3": 100282.68190520119,
+      "bounds_mm": [
+        [
+          -72.0,
+          -8.399999618530273,
+          0.0
+        ],
+        [
+          72.0,
+          72.0,
+          62.0
+        ]
+      ],
+      "geometry": {
+        "slot_widths_mm": [
+          18.29998779296875,
+          18.29998779296875
+        ],
+        "wall_thicknesses_mm": [
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "datum_angle_deg": 90.0,
+        "base_thickness_mm": 4.799999237060547,
+        "corner_radius_mm": [
+          2.999995575127964,
+          3.0000091545765
+        ],
+        "holes": [
+          {
+            "z_center_mm": 14.800002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 29.800002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 44.800002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          }
+        ],
+        "contact_areas_mm2": {
+          "datum_A": 4377.049916375278,
+          "datum_B": 1471.3803754425142,
+          "edge_A": 2479.0842650568356,
+          "edge_B": 972.0
+        },
+        "removal": [
+          {
+            "removal_mm": 0,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 0.2,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 1,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 5,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 15,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 30,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 62,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 64,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "oversize_18_4_collision_mm3": [
+          344.45877000717223,
+          293.72772810363006
+        ]
+      }
+    },
+    {
+      "file": "stl/standard/LL_standard.stl",
+      "sha256": "41303d10cfdc5cf80550b3d34b21aee0b5316b00df8a3421af74b486b652ef46",
+      "triangles": 2076,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        75.0,
+        75.0,
+        58.0
+      ],
+      "volume_mm3": 45364.85039290781,
+      "bounds_mm": [
+        [
+          -5.0,
+          -5.0,
+          0.0
+        ],
+        [
+          70.0,
+          70.0,
+          58.0
+        ]
+      ],
+      "geometry": {
+        "slot_widths_mm": [
+          18.29998779296875,
+          18.29998779296875
+        ],
+        "wall_thicknesses_mm": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "datum_angle_deg": 90.0,
+        "base_thickness_mm": 3.59999942779541,
+        "corner_radius_mm": [
+          2.999995575127964,
+          3.0000091545765
+        ],
+        "holes": [
+          {
+            "z_center_mm": 13.600002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 28.600002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 43.600002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          }
+        ],
+        "contact_areas_mm2": {
+          "datum_A": 2072.0698332958164,
+          "datum_B": 1216.8,
+          "edge_A": 899.8283008411399,
+          "edge_B": 681.8855374206414
+        },
+        "removal": [
+          {
+            "removal_mm": 0,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 0.2,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 1,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 5,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 15,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 30,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 58,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 60,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "oversize_18_4_collision_mm3": [
+          120.99233538875812,
+          120.75828004090448
+        ]
+      }
+    },
+    {
+      "file": "stl/standard/plate_1_standard.stl",
+      "sha256": "68649c1ba081ad19db2a2fa74ce968a457c42c89232ccaa04f79ea8b8351d2ef",
+      "triangles": 5544,
+      "components": 3,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        158.0,
+        158.0,
+        58.0
+      ],
+      "volume_mm3": 156406.17324709377,
+      "bounds_mm": [
+        [
+          11.0,
+          11.0,
+          0.0
+        ],
+        [
+          169.0,
+          169.0,
+          58.0
+        ]
+      ],
+      "layout": {
+        "components": 3,
+        "TL": 1,
+        "LL": 2,
+        "min_bbox_gap_mm": 8.0,
+        "bed_edge_mm": 11.0
+      }
+    },
+    {
+      "file": "stl/standard/plate_2_standard.stl",
+      "sha256": "cb0aafa32dd53ff4b9709c16d4080da21eb8f246243e9eb2ea7f7d6324100fbe",
+      "triangles": 5544,
+      "components": 3,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        158.0,
+        158.0,
+        58.0
+      ],
+      "volume_mm3": 156406.1732470937,
+      "bounds_mm": [
+        [
+          11.0,
+          11.0,
+          0.0
+        ],
+        [
+          169.0,
+          169.0,
+          58.0
+        ]
+      ],
+      "layout": {
+        "components": 3,
+        "TL": 1,
+        "LL": 2,
+        "min_bbox_gap_mm": 8.0,
+        "bed_edge_mm": 11.0
+      }
+    },
+    {
+      "file": "stl/standard/TL_standard.stl",
+      "sha256": "0cafc2ede803be8f0f3229f5a3404c995182f824269e1dc607f20a5f4b5fa6ca",
+      "triangles": 1392,
+      "components": 1,
+      "watertight": true,
+      "edges_all_two_faces": true,
+      "extents_mm": [
+        140.0,
+        75.0,
+        58.0
+      ],
+      "volume_mm3": 65676.47239237085,
+      "bounds_mm": [
+        [
+          -70.0,
+          -5.0,
+          0.0
+        ],
+        [
+          70.0,
+          70.0,
+          58.0
+        ]
+      ],
+      "geometry": {
+        "slot_widths_mm": [
+          18.29998779296875,
+          18.29998779296875
+        ],
+        "wall_thicknesses_mm": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "datum_angle_deg": 90.0,
+        "base_thickness_mm": 3.59999942779541,
+        "corner_radius_mm": [
+          2.999995575127964,
+          3.0000091545765
+        ],
+        "holes": [
+          {
+            "z_center_mm": 13.600002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 28.600002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          },
+          {
+            "z_center_mm": 43.600002,
+            "width_mm": 6.649994,
+            "roof_height_mm": 4.702254
+          }
+        ],
+        "contact_areas_mm2": {
+          "datum_A": 3710.0698331301155,
+          "datum_B": 1209.7802856445312,
+          "edge_A": 2407.0842650568356,
+          "edge_B": 936.0
+        },
+        "removal": [
+          {
+            "removal_mm": 0,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 0.2,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 1,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 5,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 15,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 30,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 58,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "removal_mm": 60,
+            "intersection_mm3": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "oversize_18_4_collision_mm3": [
+          284.8117063261851,
+          241.48777246856443
+        ]
+      }
+    }
+  ]
+}

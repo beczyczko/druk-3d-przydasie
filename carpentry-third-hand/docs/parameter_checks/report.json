@@ -1,0 +1,29 @@
+[
+  {
+    "case": "TL_custom",
+    "parameters": {
+      "variant": "reinforced",
+      "board_thickness": 18.2,
+      "clearance": 0.5,
+      "arm_length": 75,
+      "include_guide_holes": false,
+      "include_inspection_windows": false
+    },
+    "watertight": true,
+    "components": 1,
+    "slot_mm": 18.699996948242188,
+    "sha256": "971d6b294cb732822bfebfa95f2f9268b6d3c801374f8da08be49f7480e16bab"
+  },
+  {
+    "case": "LL_round_holes",
+    "parameters": {
+      "variant": "compact",
+      "support_free_holes": false,
+      "corner_radius": 2
+    },
+    "watertight": true,
+    "components": 1,
+    "slot_mm": null,
+    "sha256": "4e442e0c169275e8331fbe6cf95ef325d70a3cb7a3f653f85ccb0515973c1531"
+  }
+]
